@@ -1,0 +1,68 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fce4ec; /* light pink */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    border: 5px solid #ff69b4; /* frostbite */
+}
+
+h1 {
+    margin-bottom: 25px;
+    color: #ff69b4; /* frostbite */
+}
+
+label {
+    display: block;
+    margin: 15px 0 8px;
+    font-size: 1.1em;
+    color: #ff69b4; /* frostbite */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ff69b4; /* frostbite */
+    border-radius: 20px;
+    background-color: #ffe4e1; /* misty rose */
+    color: #ff69b4; /* frostbite */
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    padding: 12px 25px;
+    background-color: #ff4500; /* royal orange */
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    background-color: #e03b00; /* darker royal orange */
+}
+
+a {
+    color: #ff69b4; /* frostbite */
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
