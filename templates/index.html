@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Type Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Body Type Calculator</h1>
+        <form id="bodyTypeForm" action="{{ url_for('calculate_body_type') }}" method="POST">
+            <label for="shoulders">Shoulders (cm):</label>
+            <input type="number" id="shoulders" name="shoulders" required><br>
+            <label for="bust">Bust (cm):</label>
+            <input type="number" id="bust" name="bust" required><br>
+            <label for="waist">Waist (cm):</label>
+            <input type="number" id="waist" name="waist" required><br>
+            <label for="hips">Hips (cm):</label>
+            <input type="number" id="hips" name="hips" required><br>
+            <input type="submit" value="Calculate Body Type">
+        </form>
+    </div>
+</body>
+</html>
